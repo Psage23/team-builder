@@ -1,5 +1,5 @@
 
-export default [
+const Peoples = [
     {
         name: "Bob",
         location: "Texas",
@@ -18,5 +18,7 @@ export default [
         gender: "Female",
         age: 22
     }
+
 ]
 
+export default Peoples;
