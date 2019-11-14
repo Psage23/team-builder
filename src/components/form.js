@@ -13,7 +13,7 @@ const Form = props => {
         setForms({name: "", location: "", gender: ""})
     };
     return(
-        <form onSubmit={submitForm}>
+        <form onSubmit={submitForm} className="form">
             <label htmlFor="name">Name</label>
             <input 
                 name="name" 

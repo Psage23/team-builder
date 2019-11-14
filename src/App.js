@@ -17,8 +17,7 @@ function App() {
   }
   return (
     <div className="App">
-      <img src="https://img.freepik.com/free-photo/close-up-golden-glitter-textured-background_53876-63480.jpg?size=626&ext=jpg" alt="glitter background"></img>
-      <div>
+      <div className="title">
         <h1>Nominate Your Favorite Person</h1>
       </div>
       <Form addNewForm = {addNewForm}/>
