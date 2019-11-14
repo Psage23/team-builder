@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 const Form = props => {
-    const [forms, setForms] = useState({name: "", location: "", gender: ""})
+    const [forms, setForms] = useState({name: "", email: "", role: ""})
 
     const changeHandler = e => {
         setForms({...forms, [e.target.name]: e.target.value})
@@ -10,7 +10,7 @@ const Form = props => {
     const submitForm = e => {
         e.preventDefault();
         props.addNewForm(forms);
-        setForms({name: "", location: "", gender: ""})
+        setForms({name: "", email: "", role: ""})
     };
     return(
         <form onSubmit={submitForm} className="form">
@@ -29,7 +29,7 @@ const Form = props => {
                 id="email" type="text" 
                 placeholder="email"
                 onChange={changeHandler} 
-                value={forms.location}
+                value={forms.email}
             />
 
             <label htmlFor="role">Role</label>
@@ -39,7 +39,7 @@ const Form = props => {
                 type="text"
                 placeholder="role"
                 onChange={changeHandler} 
-                value={forms.gender}
+                value={forms.role}
             />
 
             <button type="submit">Submit</button>

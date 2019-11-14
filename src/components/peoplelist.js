@@ -3,6 +3,7 @@ import React from "react";
 const PeopleList = props => {
     return (
         <div className = "card">
+            <div className="photo">{props.info.photo}</div>
             <h1>{props.info.name}</h1>
             <div>
                 <div>Email: {props.info.email}</div>

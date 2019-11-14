@@ -2,12 +2,13 @@
   text-align: center;
   background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX35529300.jpg");
   height: 80vh;
-  color: white;
+  color: rgb(253, 245, 245);
 }
 
 .title {
   color: rgb(27, 197, 209);
   background-color: rgb(255, 255, 255);
+  padding-bottom: 1%;
 }  
   
 .title h1 {
@@ -29,4 +30,9 @@
   background-color: rgb(255, 187, 0);
   margin-left: 30%;
   margin-right: 30%;
+}
+
+.photo{
+  border-radius: 12px;
+
 }
