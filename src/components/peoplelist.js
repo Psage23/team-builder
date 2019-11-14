@@ -5,8 +5,8 @@ const PeopleList = props => {
         <div className = "card">
             <h1>{props.info.name}</h1>
             <div>
-                <div>Location: {props.info.location}</div>
-                <div>Gender: {props.info.gender}</div>
+                <div>Email: {props.info.email}</div>
+                <div>Role: {props.info.role}</div>
             </div>
         </div>
     );

@@ -2,21 +2,18 @@
 const Peoples = [
     {
         name: "Bob",
-        location: "Texas",
-        gender: "Male",
-        age: 45
+        email: "mrbob@email.com",
+        role: "Best chef every!",
     },
     {
         name: "Nancy",
-        location: "Iowa",
-        gender: "Female",
-        age: 33
+        email: "missnancy@email.com",
+        role: "Coolest Mom in town.",
     },
     {
         name: "Stacy",
-        location: "Florida",
-        gender: "Female",
-        age: 22
+        email: "stacylacy@email.com",
+        role: "The Real MVP!",
     }
 
 ]
