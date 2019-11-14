@@ -18,7 +18,8 @@ function App() {
   return (
     <div className="App">
       <div className="title">
-        <h1>Nominate Your Favorite Person</h1>
+        <h1>Best Team Every</h1>
+        <p>Submit your information below!</p>
       </div>
       <Form addNewForm = {addNewForm}/>
       {peoples.map(people => {

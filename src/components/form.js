@@ -23,21 +23,21 @@ const Form = props => {
                 value={forms.name}
             />
 
-            <label htmlFor="location">Location</label>
+            <label htmlFor="email">Email</label>
             <input 
-                name="location" 
-                id="location" type="text" 
-                placeholder="location" 
+                name="email" 
+                id="email" type="text" 
+                placeholder="email"
                 onChange={changeHandler} 
                 value={forms.location}
             />
 
-            <label htmlFor="gender">Gender</label>
+            <label htmlFor="role">Role</label>
             <input 
-                name="gender" 
-                id="gender" 
-                type="text" 
-                placeholder="gender" 
+                name="role" 
+                id="role" 
+                type="text"
+                placeholder="role"
                 onChange={changeHandler} 
                 value={forms.gender}
             />
