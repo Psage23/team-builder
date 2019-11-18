@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX35529300.jpg");
+  height: 80vh;
+  color: rgb(253, 245, 245);
+}
+
+.title {
+  color: rgb(27, 197, 209);
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 1%;
+}  
+  
+.title h1 {
+    font-size: 3rem;
+  }
+
+
+.form {
+  background-color: rgba(71, 71, 71, 0.596);
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6rem;
+  padding: 20px;
+  margin: 1%;
+
+}
+
+.card {
+  background-color: rgb(255, 187, 0);
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.photo{
+  border-radius: 12px;
+
+}
